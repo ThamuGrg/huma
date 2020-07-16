@@ -1,0 +1,26 @@
+{
+	"name": "huma",
+	"version": "1.0.0",
+	"description": "Rest Api testing with Cucumber in Cypress",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"keywords": [
+		"Cypress",
+		"BDD"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^4.10.0",
+		"cypress-cucumber-preprocessor": "^2.5.3"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true
+	}
+}

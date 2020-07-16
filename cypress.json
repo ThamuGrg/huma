@@ -1,0 +1,6 @@
+{
+	"baseUrl": "https://reqres.in",
+	"video": false,
+	"defaultCommandTimeout": 5000,
+	"ignoreTestFiles": ["*.js", "*.md"]
+}
